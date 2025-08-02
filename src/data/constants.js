@@ -126,6 +126,9 @@ export const skills = [
   },
 ];
 
+export const experiences = [
+  
+];
 
 export const education = [
   {
@@ -295,4 +298,6 @@ export const projects = [
   
 ];
 
-
+export const TimeLineData = [
+  
+];
