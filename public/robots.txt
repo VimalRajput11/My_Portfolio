@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vimalrajput.vercel.app/sitemap.xml

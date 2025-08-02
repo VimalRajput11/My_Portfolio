@@ -13,6 +13,7 @@ import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
+import { Helmet } from "react-helmet";
 import styled from "styled-components";
 
 const Body = styled.div`
@@ -32,6 +33,14 @@ function App() {
   console.log(openModal)
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
+
+      <Helmet>
+        <title>Vimal Rajput | MERN Stack Developer</title>
+        <meta name="description" content="Portfolio of Vimal Rajput showcasing skills, projects, education, and contact details. MERN stack developer with React, Node.js, MongoDB expertise." />
+        <meta name="keywords" content="Vimal Rajput, MERN Developer, React Portfolio, Node.js, MongoDB, JavaScript, Web Developer" />
+        <meta name="author" content="Vimal Rajput" />
+        <link rel="canonical" href="https://vimalrajput.vercel.app/" />
+      </Helmet>
     
       <Router >
         <Navbar />
