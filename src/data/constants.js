@@ -8,7 +8,7 @@ export const Bio = {
 "I am an ambitious and resourceful individual, constantly seeking new opportunities to grow. Passionate about acquiring knowledge, I am committed to achieving excellence in all endeavors. With a proactive mindset and a strong determination, I am ready to create a positive impact and accomplish significant milestones.",
   github: "https://github.com/VimalRajput11",
   resume:
-    "https://drive.google.com/file/d/1o0MRgyBSPn2LH95ms9CwRgU_ml-ZlxK3/view?usp=drive_link",
+    "https://drive.google.com/file/d/1EnBiYvv67e6QsKwscTbxMf08HPFjU-Wg/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/vimal-rajput-918531249/",
   // twitter: "",
   // insta: "",
