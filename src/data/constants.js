@@ -110,7 +110,7 @@ export const skills = [
         {
         name: "Vercel",
         image:
-          "https://static.wikia.nocookie.net/logopedia/images/a/a7/Vercel_favicon.svg/revision/latest?cb=20221026155821",
+          "https://res.cloudinary.com/dvc3cctfk/image/upload/v1754151432/vercel_lme8lh.png",
       },
       {
         name: "VS Code",
