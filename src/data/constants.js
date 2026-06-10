@@ -5,10 +5,10 @@ export const Bio = {
     "Programmer",
   ],
   description:
-"I am an ambitious and resourceful individual, constantly seeking new opportunities to grow. Passionate about acquiring knowledge, I am committed to achieving excellence in all endeavors. With a proactive mindset and a strong determination, I am ready to create a positive impact and accomplish significant milestones.",
+    "I am an ambitious and resourceful individual, constantly seeking new opportunities to grow. Passionate about acquiring knowledge, I am committed to achieving excellence in all endeavors. With a proactive mindset and a strong determination, I am ready to create a positive impact and accomplish significant milestones.",
   github: "https://github.com/VimalRajput11",
   resume:
-    "https://drive.google.com/file/d/14zpurGQ8bCXQwKC7gAcxnE2lIYUP4rLS/view?usp=drive_link",
+    "https://drive.google.com/file/d/1Q9E-F3NItlDq30gXXzhoM1qC9BMemDcB/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/vimal-rajput-918531249/",
   // twitter: "",
   // insta: "",
@@ -108,7 +108,7 @@ export const skills = [
         image:
           "https://www.netlify.com/v3/img/components/logomark.png",
       },
-        {
+      {
         name: "Vercel",
         image:
           "https://res.cloudinary.com/dvc3cctfk/image/upload/v1754151432/vercel_lme8lh.png",
@@ -128,7 +128,7 @@ export const skills = [
 ];
 
 export const experiences = [
-  
+
 ];
 
 export const education = [
@@ -172,133 +172,184 @@ export const education = [
 
 
 export const projects = [
-{
-  id: 0,
-  title: "Dvaults:Decentralized Vault",
-  date: "May2025 - Present",
-  description:
-    "Developed Dvaults, a full-stack decentralized vault application that enables users to securely create, manage, and store encrypted digital files on the blockchain. The application integrates IPFS for decentralized file storage and Ethereum smart contracts for immutable vault records. Features include multi-step vault creation, dynamic vault dashboard, drag-and-drop file uploads, access control, and auto-delete timers. The frontend is built with React and Tailwind CSS, while the backend uses Node.js, Express, and MongoDB, integrated with Truffle-based Solidity smart contracts and Wagmi for wallet interactions.",
-  image:
-    "https://res.cloudinary.com/dvc3cctfk/image/upload/v1754112469/Screenshot_2025-08-02_104849_evk4wf.png",
-  tags: [
-    "React",
-    "Node.js",
-    "Express",
-    "MongoDB",
-    "Solidity",
-    "Truffle",
-    "IPFS",
-    "Wagmi"
-  ],
-  category: "web app",
-  github: "https://github.com/VimalRajput11/Dvault", // Update this if the repo name is different
-  webapp: "https://dvaults.vercel.app/"
-},
-  {
-  id: 1,
-  title: "Greencart - Grocery Delivery App",
-  date: "March 2025 - April 2025", // Update if different
-  description:
-    "Designed and developed Greencart, a full-stack grocery delivery web application that allows users to browse and order groceries from various categories. The platform includes an integrated online payment system using Razorpay, providing a secure and seamless checkout experience. Built with a modern and responsive UI, Greencart offers features such as product categorization, cart management, order tracking, and image handling with Cloudinary. The application leverages React.js for the frontend, Node.js and Express for the backend, and MongoDB for data storage, delivering a smooth and efficient user experience.",
-  image:
-    "https://res.cloudinary.com/dvc3cctfk/image/upload/v1750924665/Screenshot_2025-06-26_132647_hjsvyb.png",
-  tags: ["React Js", "Node Js", "Express", "MongoDB", "Cloudinary", "Razorpay"],
-  category: "web app",
-  github: "https://github.com/VimalRajput11/Green-Cart-Full-Stack-Grocery-Store", // Replace with your actual repo link
-  webapp: "https://green-cart-full-stack-grocery-store-d667.vercel.app/" // Replace with your actual deployed app link
-},
+
+
 
   {
-    
-  id: 2,
-  title: "AI Powered Fitness Tracker",
-  date: "Jan 2025 - Jan 2025",
-  description:
-    "Designed and developed an advanced AI-powered fitness tracker leveraging the cutting-edge capabilities of Google Gemini to provide personalized fitness guidance and insights. The platform is tailored to cater to a diverse audience by offering dual-language support in Hindi and English, ensuring accessibility and inclusivity.",
-  image:
-    "https://res.cloudinary.com/dvc3cctfk/image/upload/v1754112401/Screenshot_2025-08-02_104115_iypx3p.png",
-  tags: ["React Js", "Express Js", "Node Js", "Css"],
-  category: "web app",
-  github: "https://github.com/VimalRajput11/AI-Fitness_App", // Replace with actual repo
-  webapp: "https://aifitnesstrackers.vercel.app" // Replace with actual live site
+    id: 0,
+    title: "ParikshaX: AI-Powered Secure Exam Browser",
+    date: "Dec 2025 - Feb2026",
+    description:
+      "Developed ParikshaX, a secure and intelligent examination browser designed to prevent cheating and ensure fair online assessments. The application provides a locked-down exam environment with full-screen enforcement, tab-switch detection, copy-paste restrictions, and real-time activity monitoring. It integrates AI-powered proctoring features such as face detection, multiple-person detection, eye and head movement tracking, suspicious behavior scoring, and automated violation logging. The system generates detailed exam reports with timestamps, risk assessments, and monitoring data for administrators. Built using Electron.js, React, Node.js, Express, MongoDB, OpenCV, and MediaPipe to deliver a secure, scalable, and user-friendly examination experience.",
+    image:
+      "https://res.cloudinary.com/dvc3cctfk/image/upload/v1781059912/Screenshot_2026-06-10_081708_qxxzjj.png",
+    tags: [
+      "Electron.js",
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "OpenCV",
+      "MediaPipe",
+      "AI Proctoring"
+    ],
+    category: "web app",
+    github: "https://github.com/VimalRajput11/ParikshaX-A-safe-Exam-Browser",
+    webapp: "https://parikshax.vercel.app"
+  },
+
+
+
+  {
+    id: 1,
+    title: "Dvaults:Decentralized Vault",
+    date: "May2025 - Present",
+    description:
+      "Developed Dvaults, a full-stack decentralized vault application that enables users to securely create, manage, and store encrypted digital files on the blockchain. The application integrates IPFS for decentralized file storage and Ethereum smart contracts for immutable vault records. Features include multi-step vault creation, dynamic vault dashboard, drag-and-drop file uploads, access control, and auto-delete timers. The frontend is built with React and Tailwind CSS, while the backend uses Node.js, Express, and MongoDB, integrated with Truffle-based Solidity smart contracts and Wagmi for wallet interactions.",
+    image:
+      "https://res.cloudinary.com/dvc3cctfk/image/upload/v1754112469/Screenshot_2025-08-02_104849_evk4wf.png",
+    tags: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Solidity",
+      "Truffle",
+      "IPFS",
+      "Wagmi"
+    ],
+    category: "web app",
+    github: "https://github.com/VimalRajput11/Dvault", // Update this if the repo name is different
+    webapp: "https://dvaults.vercel.app/"
+  },
+  {
+    id: 2,
+    title: "Greencart - Grocery Delivery App",
+    date: "March 2025 - April 2025", // Update if different
+    description:
+      "Designed and developed Greencart, a full-stack grocery delivery web application that allows users to browse and order groceries from various categories. The platform includes an integrated online payment system using Razorpay, providing a secure and seamless checkout experience. Built with a modern and responsive UI, Greencart offers features such as product categorization, cart management, order tracking, and image handling with Cloudinary. The application leverages React.js for the frontend, Node.js and Express for the backend, and MongoDB for data storage, delivering a smooth and efficient user experience.",
+    image:
+      "https://res.cloudinary.com/dvc3cctfk/image/upload/v1750924665/Screenshot_2025-06-26_132647_hjsvyb.png",
+    tags: ["React Js", "Node Js", "Express", "MongoDB", "Cloudinary", "Razorpay"],
+    category: "web app",
+    github: "https://github.com/VimalRajput11/Green-Cart-Full-Stack-Grocery-Store", // Replace with your actual repo link
+    webapp: "https://green-cart-full-stack-grocery-store-d667.vercel.app/" // Replace with your actual deployed app link
+  },
+
+  {
+
+    id: 3,
+    title: "AI Powered Fitness Tracker",
+    date: "Jan 2025 - Jan 2025",
+    description:
+      "Designed and developed an advanced AI-powered fitness tracker leveraging the cutting-edge capabilities of Google Gemini to provide personalized fitness guidance and insights. The platform is tailored to cater to a diverse audience by offering dual-language support in Hindi and English, ensuring accessibility and inclusivity.",
+    image:
+      "https://res.cloudinary.com/dvc3cctfk/image/upload/v1754112401/Screenshot_2025-08-02_104115_iypx3p.png",
+    tags: ["React Js", "Express Js", "Node Js", "Css"],
+    category: "web app",
+    github: "https://github.com/VimalRajput11/AI-Fitness_App", // Replace with actual repo
+    webapp: "https://aifitnesstrackers.vercel.app" // Replace with actual live site
 
 
   },
   {
-    
-  id: 3,
-  title: "Pokemon Website",
-  date: "Jan 2025 - Jan 2025",
-  description:
-    "Designed and developed a Pokémon-themed website where users can catch their favorite Pokémon, such as Pikachu and many more. The platform provides detailed information about each Pokémon, including their height, weight, and abilities, offering an engaging and interactive experience for Pokémon enthusiasts. The website features an intuitive interface and dynamic interactions, creating a fun and immersive environment for users to explore and learn about the world of Pokémon.",
-  image:
-   "https://res.cloudinary.com/dvc3cctfk/image/upload/v1750924243/1_defp7v.png",
-  tags: ["React Js", "Css"],
-  category: "web app",
-  github: "https://github.com/VimalRajput11/Pokemon-Website", // Replace with actual repo link
-  webapp: "https://pokemonvraj.netlify.app/" // Replace with actual live site
+
+    id: 4,
+    title: "Pokemon Website",
+    date: "Jan 2025 - Jan 2025",
+    description:
+      "Designed and developed a Pokémon-themed website where users can catch their favorite Pokémon, such as Pikachu and many more. The platform provides detailed information about each Pokémon, including their height, weight, and abilities, offering an engaging and interactive experience for Pokémon enthusiasts. The website features an intuitive interface and dynamic interactions, creating a fun and immersive environment for users to explore and learn about the world of Pokémon.",
+    image:
+      "https://res.cloudinary.com/dvc3cctfk/image/upload/v1750924243/1_defp7v.png",
+    tags: ["React Js", "Css"],
+    category: "web app",
+    github: "https://github.com/VimalRajput11/Pokemon-Website", // Replace with actual repo link
+    webapp: "https://pokemonvraj.netlify.app/" // Replace with actual live site
 
 
   },
   {
-  id: 4,
-  title: "Todo App",
-  date: "Nov 2024 - Nov 2024",
-  description:
-    "Designed and developed a To-Do App that allows users to efficiently manage their daily tasks. The app features functionalities to add, edit, and remove tasks seamlessly, providing an intuitive and user-friendly interface. Integrated a real-time date and time display to help users stay on schedule and prioritize tasks effectively. The app is built with a focus on simplicity, performance, and enhancing productivity by offering users a clean and organized way to keep track of their to-dos.",
-  image:
-  "https://res.cloudinary.com/dvc3cctfk/image/upload/v1750924244/2_qs06jk.png",
-  tags: ["React Js", "Local Storage"],
-  category: "web app",
-  github: "https://github.com/VimalRajput11/Todo-App", // Replace with your actual GitHub repo link
-  webapp: "https://todoappvimalrajput.netlify.app/" // Replace with your actual live site link
-},
+    id: 5,
+    title: "Todo App",
+    date: "Nov 2024 - Nov 2024",
+    description:
+      "Designed and developed a To-Do App that allows users to efficiently manage their daily tasks. The app features functionalities to add, edit, and remove tasks seamlessly, providing an intuitive and user-friendly interface. Integrated a real-time date and time display to help users stay on schedule and prioritize tasks effectively. The app is built with a focus on simplicity, performance, and enhancing productivity by offering users a clean and organized way to keep track of their to-dos.",
+    image:
+      "https://res.cloudinary.com/dvc3cctfk/image/upload/v1750924244/2_qs06jk.png",
+    tags: ["React Js", "Local Storage"],
+    category: "web app",
+    github: "https://github.com/VimalRajput11/Todo-App", // Replace with your actual GitHub repo link
+    webapp: "https://todoappvimalrajput.netlify.app/" // Replace with your actual live site link
+  },
 
- {
-  id: 5,
-  title: "URL Shortener App",
-  date: "Dec 2024 - Dec 2024",
-  description:
-    "Developed a URL Shortener App designed to simplify lengthy URLs into short, shareable links. The app offers a clean and user-friendly interface, making it easy for users to input long URLs and instantly generate shortened versions. Built with a focus on efficiency and usability, the app helps enhance link management and is ideal for sharing concise links across platforms. Future plans include adding analytics features to track link clicks and performance.",
-  image:
-"https://res.cloudinary.com/dvc3cctfk/image/upload/v1750924244/3_xz9gdk.jpg" ,
- tags: ["Html", "Css", "Node JS"],
-  category: "web app",
-  github: "https://github.com/VimalRajput11/URL-Shortner-App", // Replace with your actual GitHub repo link
-  webapp: "https://url-shortner-app-1-0axb.onrender.com/" // Replace with your actual live site link
-},
+  {
+    id: 6,
+    title: "URL Shortener App",
+    date: "Dec 2024 - Dec 2024",
+    description:
+      "Developed a URL Shortener App designed to simplify lengthy URLs into short, shareable links. The app offers a clean and user-friendly interface, making it easy for users to input long URLs and instantly generate shortened versions. Built with a focus on efficiency and usability, the app helps enhance link management and is ideal for sharing concise links across platforms. Future plans include adding analytics features to track link clicks and performance.",
+    image:
+      "https://res.cloudinary.com/dvc3cctfk/image/upload/v1750924244/3_xz9gdk.jpg",
+    tags: ["Html", "Css", "Node JS"],
+    category: "web app",
+    github: "https://github.com/VimalRajput11/URL-Shortner-App", // Replace with your actual GitHub repo link
+    webapp: "https://url-shortner-app-1-0axb.onrender.com/" // Replace with your actual live site link
+  },
 
- {
-  id: 6,
-  title: "Scientific Calculator",
-  date: "Jan 2022 - Jan 2022",
-  description:
-    "Developed a Scientific Calculator application that provides advanced mathematical functionalities beyond basic arithmetic operations. The calculator supports features such as trigonometric calculations, logarithms, exponential functions, and complex number operations. Designed with an intuitive and user-friendly interface, the app ensures seamless usability for students, engineers, and professionals. Built with a focus on accuracy and performance, the calculator is an essential tool for solving a wide range of mathematical problems efficiently.",
-  image:
-  "https://res.cloudinary.com/dvc3cctfk/image/upload/v1750924245/5_rqjsst.jpg",
-  tags: ["Html", "Css", "Javascript"],
-  category: "web app",
-  github: "https://github.com/VimalRajput11/Scientific_Calculator", // Replace with actual repo link
-  webapp: "https://calculatorbyvimal.netlify.app/" // Replace with actual live app link
-},
+  {
+    id: 7,
+    title: "Scientific Calculator",
+    date: "Jan 2022 - Jan 2022",
+    description:
+      "Developed a Scientific Calculator application that provides advanced mathematical functionalities beyond basic arithmetic operations. The calculator supports features such as trigonometric calculations, logarithms, exponential functions, and complex number operations. Designed with an intuitive and user-friendly interface, the app ensures seamless usability for students, engineers, and professionals. Built with a focus on accuracy and performance, the calculator is an essential tool for solving a wide range of mathematical problems efficiently.",
+    image:
+      "https://res.cloudinary.com/dvc3cctfk/image/upload/v1750924245/5_rqjsst.jpg",
+    tags: ["Html", "Css", "Javascript"],
+    category: "web app",
+    github: "https://github.com/VimalRajput11/Scientific_Calculator", // Replace with actual repo link
+    webapp: "https://calculatorbyvimal.netlify.app/" // Replace with actual live app link
+  },
 
-//   {
-//   id: 6,
-//   title: "Peacock Garden",
-//   date: "Jun 2024 - July 2024",
-//   description:
-//     "Designed and developed a console application for Peacock Garden, a fictional restaurant, utilizing Data Structures and Algorithms (DSA) in C. This project aims to streamline the restaurant’s operations by automating various tasks like order management, customer tracking, and inventory control, providing a smooth and efficient user experience.",
-//   image:
-// "https://res.cloudinary.com/dvc3cctfk/image/upload/v1750924246/6_ygb7uv.png",
-//   tags: ["C", "DSA"],    
-//   category: "console app",
-//   github: "https://github.com/your-username/peacock-garden", // Replace with your actual GitHub repo link
-//   webapp: "https://your-peacock-garden-console-app.com" // Replace with actual live app link or documentation
-// },
+  //   {
+  //   id: 6,
+  //   title: "Peacock Garden",
+  //   date: "Jun 2024 - July 2024",
+  //   description:
+  //     "Designed and developed a console application for Peacock Garden, a fictional restaurant, utilizing Data Structures and Algorithms (DSA) in C. This project aims to streamline the restaurant’s operations by automating various tasks like order management, customer tracking, and inventory control, providing a smooth and efficient user experience.",
+  //   image:
+  // "https://res.cloudinary.com/dvc3cctfk/image/upload/v1750924246/6_ygb7uv.png",
+  //   tags: ["C", "DSA"],    
+  //   category: "console app",
+  //   github: "https://github.com/your-username/peacock-garden", // Replace with your actual GitHub repo link
+  //   webapp: "https://your-peacock-garden-console-app.com" // Replace with actual live app link or documentation
+  // },
 
-  
+  {
+    id: 8,
+    title: "DVault Android App",
+    date: "Jan 2026 - Present",
+    description:
+      "A decentralized Android application built with React Native that enables users to securely store, manage, and share digital files using blockchain technology. The app integrates IPFS for decentralized file storage and Ethereum smart contracts for secure vault management. Users can create private or shareable vaults, upload encrypted files, manage access permissions, and verify file integrity. It features Web3 wallet authentication, real-time vault synchronization, secure file retrieval, search and filtering capabilities, and a modern mobile-friendly interface.",
+    image:
+      "https://res.cloudinary.com/dvc3cctfk/image/upload/v1781061716/Picture2_qk6wtx.png",
+    tags: [
+      "React Native",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Solidity",
+      "Ethereum",
+      "IPFS",
+      "Web3"
+    ],
+    category: "android app",
+    github: "https://github.com/VimalRajput11/Dvault_Android_App",
+    webapp: "https://drive.google.com/file/d/14PHvfmAaqlq7Xe7I8xIVKGdXoM_TU5ER/view?usp=drive_link"
+  }
+
+
 ];
 
 export const TimeLineData = [
-  
+
 ];
